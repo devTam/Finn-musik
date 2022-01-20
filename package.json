@@ -1,0 +1,42 @@
+{
+  "name": "finn-musik",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.8",
+    "axios": "^0.24.0",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.1.0",
+    "stylis": "4.0.4"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.7.2",
+    "@emotion/eslint-plugin": "^11.7.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
+    "@types/node": "17.0.8",
+    "@types/react": "17.0.38",
+    "@types/testing-library__jest-dom": "^5.14.2",
+    "@types/testing-library__react": "^10.2.0",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "typescript": "4.5.4"
+  }
+}
